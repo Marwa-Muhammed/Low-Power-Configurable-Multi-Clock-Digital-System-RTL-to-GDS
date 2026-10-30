@@ -1,0 +1,6 @@
+
+current_design "SYS_TOP"
+clock -name SYS_TOP.div_clk_2 -period 271.25 -domain d1
+clock -name SYS_TOP.div_clk_1 -period 8680.00 -domain d1
+clock -name SYS_TOP.UART_CLK -period 271.25 -domain d1
+clock -name SYS_TOP.REF_CLK -period 10.00 -domain d0

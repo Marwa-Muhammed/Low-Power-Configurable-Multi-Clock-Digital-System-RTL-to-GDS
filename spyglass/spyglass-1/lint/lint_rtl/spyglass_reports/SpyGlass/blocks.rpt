@@ -1,0 +1,13 @@
+RST_SYNC@@@@SYS_TOP.u_rst_sync_1
+RST_SYNC@@@@SYS_TOP.u_rst_sync_2
+CLK_DIV@@@@SYS_TOP.u_clk_div_1
+prescale_mux@@@@SYS_TOP.u_prescale_mux
+CLK_DIV@@@@SYS_TOP.u_clk_div_2
+Reg_File@@@@SYS_TOP.RF
+ALU_TOP@@@@SYS_TOP.ALU
+CLK_GATE@@@@SYS_TOP.u_clk_gating
+sys_ctrl@@@@SYS_TOP.u_sys_ctrl
+DATA_SYNC@@@@SYS_TOP.u_data_sync
+uart_top@@@@SYS_TOP.UART
+ASYNC_FIFO@@@@SYS_TOP.u_async_fifo
+PULSE_GEN@@@@SYS_TOP.u_pulse_gen

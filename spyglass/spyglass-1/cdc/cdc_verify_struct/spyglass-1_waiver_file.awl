@@ -1,0 +1,6 @@
+waive -rule {  {Setup_port01}  } 
+waive -rule {  {Setup_port01}  } 
+waive -rule {  {Ac_conv02}  } 
+waive -rule {  {Ac_conv02}  } 
+waive -rule {  {Ac_conv01}  } 
+waive -rule {  {Ac_conv01}  } 

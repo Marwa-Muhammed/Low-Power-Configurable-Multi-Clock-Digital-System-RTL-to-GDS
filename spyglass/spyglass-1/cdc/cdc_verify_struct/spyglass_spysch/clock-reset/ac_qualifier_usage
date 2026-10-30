@@ -1,0 +1,21 @@
+4@@1@@SYS_TOP.u_data_sync.sync_bus[7:0]@@"SYS_TOP.REF_CLK"@@SYS_TOP.UART.u_uart_rx.deser_inst.P_DATA[7:0]@@"SYS_TOP.div_clk_2"@@synchronized enable
+4@@2@@SYS_TOP.u_async_fifo.rd_2_wr.sync_chain[3:0][1]@@"SYS_TOP.REF_CLK"@@SYS_TOP.u_async_fifo.read_domain.gray_read_ptr[3:0]@@"SYS_TOP.div_clk_1"@@synchronizing cell(cell name : 'GRAY_SYNC')
+4@@3@@SYS_TOP.u_data_sync.syncronizer[1]@@"SYS_TOP.REF_CLK"@@SYS_TOP.UART.u_uart_rx.data_valid@@"SYS_TOP.div_clk_2"@@synchronizing cell(cell name : 'DATA_SYNC')
+4@@16@@SYS_TOP.u_async_fifo.wr_2_rd.sync_chain[3:0][1]@@"SYS_TOP.div_clk_1"@@SYS_TOP.u_async_fifo.write_domain.gray_write_ptr[3:0]@@"SYS_TOP.REF_CLK"@@synchronizing cell(cell name : 'GRAY_SYNC')
+3@@1@@0
+3@@1@@0
+3@@1@@0
+3@@1@@0
+3@@1@@0
+3@@1@@0
+3@@1@@0
+3@@1@@0
+3@@2@@0
+3@@2@@0
+3@@2@@0
+3@@2@@0
+3@@3@@0
+3@@16@@0
+3@@16@@0
+3@@16@@0
+3@@16@@0

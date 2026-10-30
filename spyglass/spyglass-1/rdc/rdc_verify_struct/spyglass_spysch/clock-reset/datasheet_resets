@@ -1,0 +1,4 @@
+SCHEMA@@RName@@RType@@SyncAH@@SyncAL@@ASyncAH@@ASyncAL
+VALUE@@SYS_TOP.RST@@Clear@@0@@0@@0@@4
+VALUE@@SYS_TOP.sync_rst_1@@Preset,Clear@@0@@0@@0@@315
+VALUE@@SYS_TOP.sync_rst_2@@Preset,Clear@@0@@0@@0@@100

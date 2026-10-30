@@ -1,0 +1,3 @@
+waive -rule {  {Clock_glitch04}  }  -comment {Reg_File[3][1:0] holds a quasi-static configuration and Reg_File[2][7:2] holds the UART prescale configuration, which feeds the clock-divider ratio decode. It is quasi-static so div_clk cannot glitch during operation. }  -exact 
+
+# waive -rule {  {Clock_glitch04}  }  -comment {Reg_File[3][1:0] holds the clock-divider ratio, a quasi-static configuration written only while the divider and UART TX are disabled/in reset. No glitch can occur on div_clk during operation.  Reviewed and accepted.}  -exact 

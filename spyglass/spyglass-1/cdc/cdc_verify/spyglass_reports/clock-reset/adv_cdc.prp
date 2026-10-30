@@ -1,0 +1,25 @@
+################################################################################
+#
+# Purpose: 
+#   This file specifies the assertion details along with their run status.
+#   Functional analysis is done only for those assertions that are enabled
+#   in the property file.
+#
+# Format: 
+#   
+#   RuleName: <rule-name>
+#   <selection> <type> <status> <file-name> <line-num> <hier> [ <info> ]
+#   .....
+#   
+#   
+################################################################################
+RuleName: Ac_conv02 
+on   Assertion   Partially-Proved    ../rtl/sys_top.v  306  "SYS_TOP"  [SYS_TOP.fifo_empty]
+on   Assertion   Partially-Proved    ../rtl/sys_ctrl.sv  211  "SYS_TOP.u_sys_ctrl"  [SYS_TOP.u_sys_ctrl.next_state[2]]
+on   Assertion   Partially-Proved    ../rtl/sys_top.v  305  "SYS_TOP"  [SYS_TOP.fifo_full]
+
+RuleName: Ac_cdc01a 
+on   Assertion   Partially-Proved    ../rtl/GRAY_SYNC.v  30  "SYS_TOP.u_async_fifo.wr_2_rd"  [SFlop:SYS_TOP.u_async_fifo.gray_ptr_in_W2R[0] SClk:SYS_TOP.REF_CLK DFlop:SYS_TOP.u_async_fifo.wr_2_rd.sync_chain[0][1] DClk:SYS_TOP.div_clk_1]
+on   Assertion   Partially-Proved    ../rtl/GRAY_SYNC.v  30  "SYS_TOP.u_async_fifo.wr_2_rd"  [SFlop:SYS_TOP.u_async_fifo.gray_ptr_in_W2R[1] SClk:SYS_TOP.REF_CLK DFlop:SYS_TOP.u_async_fifo.wr_2_rd.sync_chain[1][1] DClk:SYS_TOP.div_clk_1]
+on   Assertion   Partially-Proved    ../rtl/GRAY_SYNC.v  30  "SYS_TOP.u_async_fifo.wr_2_rd"  [SFlop:SYS_TOP.u_async_fifo.gray_ptr_in_W2R[2] SClk:SYS_TOP.REF_CLK DFlop:SYS_TOP.u_async_fifo.wr_2_rd.sync_chain[2][1] DClk:SYS_TOP.div_clk_1]
+on   Assertion   Partially-Proved    ../rtl/GRAY_SYNC.v  30  "SYS_TOP.u_async_fifo.wr_2_rd"  [SFlop:SYS_TOP.u_async_fifo.gray_ptr_in_W2R[3] SClk:SYS_TOP.REF_CLK DFlop:SYS_TOP.u_async_fifo.wr_2_rd.sync_chain[3][1] DClk:SYS_TOP.div_clk_1]

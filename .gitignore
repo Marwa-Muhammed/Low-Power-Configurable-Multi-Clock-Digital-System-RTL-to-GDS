@@ -1,0 +1,28 @@
+# Simulation-generated files
+sim/work/
+sim/work_*/
+sim/transcript
+sim/modelsim.ini
+*.wlf
+*.vcd
+
+# EDA logs and temporary files
+*.log
+*.jou
+*.logv
+*.tmp
+*.bak
+*.old
+alib-52/
+**/alib-52/
+
+# Formality generated work database
+formal/**/FM_WORK/
+
+# Cadence local cache
+.cadence/
+
+# OS and editor files
+Thumbs.db
+.DS_Store
+*.swp

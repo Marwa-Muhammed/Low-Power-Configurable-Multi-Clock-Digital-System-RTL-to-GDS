@@ -1,0 +1,115 @@
+# SGDC file for SYS_TOP System
+
+current_design "SYS_TOP"
+
+######################################################################################
+################################## Clock Definition ##################################
+######################################################################################
+
+# ref clk
+clock -name SYS_TOP.REF_CLK \
+      -period 10 \
+      -waveform {0 5} \
+      -domain d0 \
+      -tag sys_clk
+
+# uart clk
+clock -name SYS_TOP.UART_CLK \
+      -period 271.267 \
+      -waveform {0 135.6335} \
+      -domain d1 \
+      -tag ext_uart_clk
+
+# tx uart clk
+clock -name SYS_TOP.div_clk_1 \
+      -period 8680.544 \
+      -waveform {0 4340.272} \
+      -domain d1 \
+      -tag tx_uart_clk
+
+# rx uart clk
+clock -name SYS_TOP.div_clk_2 \
+      -period 271.267 \
+      -waveform {0 135.6335} \
+      -domain d1 \
+      -tag rx_uart_clk
+
+######################################################################################
+################################## Reset Definition ##################################
+######################################################################################
+
+# Primary top-level asynchronous reset
+reset -name "SYS_TOP.RST" -value 0 -async
+
+# Internal synchronized reset ports (driving internal blocks)
+reset -name "SYS_TOP.u_rst_sync_1.SYNC_RST" -value 0 -async
+reset -name "SYS_TOP.u_rst_sync_2.SYNC_RST" -value 0 -async
+
+######################################################################################
+############################### I/O Domains Definition ###############################
+######################################################################################
+
+input  -name RX_IN   -clock SYS_TOP.div_clk_2
+output -name PAR_ERR -clock SYS_TOP.div_clk_2
+output -name STP_ERR -clock SYS_TOP.div_clk_2
+
+output -name TX_OUT  -clock SYS_TOP.div_clk_1
+
+
+######################################################################################
+################################ Quasistatic Signals #################################
+######################################################################################
+
+quasi_static -name "SYS_TOP.RF.u_Reg_File[2][*]"
+quasi_static -name "SYS_TOP.RF.u_Reg_File[3][*]"
+
+
+######################################################################################
+############################## Synchronizers Definition ##############################
+######################################################################################
+
+sync_cell -name DATA_SYNC
+sync_cell -name GRAY_SYNC
+
+
+# RST Sync
+reset_synchronizer -name "SYS_TOP.u_rst_sync_1.SYNC_RST"
+reset_synchronizer -name "SYS_TOP.u_rst_sync_2.SYNC_RST"
+
+
+######################################################################################
+################################# Unrelated Signals ##################################
+######################################################################################
+
+cdc_attribute -unrelated {"SYS_TOP.u_data_sync.sync_bus" "SYS_TOP.u_data_sync.unsync_bus"}
+
+######################################################################################
+############################ Async FIFO Memory Crossings #############################
+######################################################################################
+
+# PATH 1: FIFO memory (REF_CLK) -> data_reg in serializer (div_clk_1)
+# it is safe as data_reg only loads when the FIFO is not empty, so the word
+# in mem_array is already fully written and is not changing while it is sampled.
+cdc_false_path -from_type flop -to_type flop \
+               -from "SYS_TOP.u_async_fifo.MEM.mem_array[*]" \
+               -to   "SYS_TOP.UART.u_uart_tx.u_serializer.data_reg[*]"
+			   
+			   
+			   
+
+# PATH 2: FIFO memory (REF_CLK) -> parity_bit in parity_calc (div_clk_1)
+# it is safe for the same reason as path 1. The FIFO data is stable while the
+# parity is calculated, and the writer cannot overwrite this word until it has
+# been read.
+cdc_false_path -from_type flop -to_type flop \
+               -from "SYS_TOP.u_async_fifo.MEM.mem_array*" \
+               -to   "SYS_TOP.UART.u_uart_tx.u_parity_calc.parity_bit*"
+			   
+			   
+# PATH 3: FIFO memory (REF_CLK) -> serial_data in serializer (div_clk_1)
+# it is safe as at counter==0 the serializer reads P_DATA directly, but only
+# while ser_en is high, which happens only when the FIFO is not empty. The word
+# in mem_array is already fully written and is not overwritten until it has been read.
+cdc_false_path -from_type flop -to_type flop \
+               -from "SYS_TOP.u_async_fifo.MEM.mem_array*" \
+               -to   "SYS_TOP.UART.u_uart_tx.u_serializer.serial_data*"			   

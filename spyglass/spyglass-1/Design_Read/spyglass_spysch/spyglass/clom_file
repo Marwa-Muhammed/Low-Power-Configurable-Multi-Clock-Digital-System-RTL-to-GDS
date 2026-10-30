@@ -1,0 +1,71 @@
+##This file is genrated to have command line decompiled Info even in Console
+##(To generate SIGN_OFF report having command line decompiled)
+Run Setup Info
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+===============================================================================
+Option          Value             Origin  File                           LineNo
+===============================================================================
+--goal_info     Design_Read@      CmdLine -                              -
+--strict_sgdc_check <ON>              Config  $SPYGLASS_HOME/.spyglass.setup 39
+-batch          <ON>              CmdLine -                              -
+-enableSV       <ON>              CmdLine -                              -
+-inferblackbox  <ON>              Config  $SPYGLASS_HOME/.spyglass.setup 29
+-lib            WORK=>./spyglass-1/WORK CmdLine -                              -
+                SYNOPSYS=>$SPYGLASS_HOME/vhdl_libs/Linux4/SYNOPSYS Config  $SPYGLASS_HOME/.spyglass.setup 25
+-mixed          <ON>              CmdLine -                              -
+-nl             <ON>              CmdLine -                              -
+-policy         none              CmdFile $SPYGLASS_HOME/auxi/policy_data/spyglass/design_read/Design_Read-mixed.spq 1
+-projectwdir    ./spyglass-1      CmdLine -                              -
+-report         moresimple        Config  $SPYGLASS_HOME/.spyglass.setup 17
+-sortmethod     du                Config  $SPYGLASS_HOME/.spyglass.setup 27
+-template       Design_Read       CmdLine -                              -
+-templatedir    /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/auxi/policy_data/spyglass/design_read CmdLine -                              -
+-wdir           ./spyglass-1/Design_Read CmdLine -                              -
+<design_files>  ../rtl/ALU_TOP.v  APICall -                              -
+                ../rtl/ASYNC_FIFO.v APICall -                              -
+                ../rtl/Arithmatic_unit.v APICall -                              -
+                ../rtl/CLK_DIV.v  APICall -                              -
+                ../rtl/CMP_unit.v APICall -                              -
+                ../rtl/DATA_SYNC.v APICall -                              -
+                ../rtl/DECODER_2X4.v APICall -                              -
+                ../rtl/DESTINATION_DOMAIN.v APICall -                              -
+                ../rtl/FIFO_BUFFER.v APICall -                              -
+                ../rtl/GRAY_SYNC.v APICall -                              -
+                ../rtl/Logic_unit.v APICall -                              -
+                ../rtl/RST_SYNC.v APICall -                              -
+                ../rtl/Rx_FSM.sv  APICall -                              -
+                ../rtl/SOURCE_DOMAIN.v APICall -                              -
+                ../rtl/Shift_unit.v APICall -                              -
+                ../rtl/Tx_FSM.sv  APICall -                              -
+                ../rtl/clk_gate.v APICall -                              -
+                ../rtl/deserializer.v APICall -                              -
+                ../rtl/edge_bit_counter.v APICall -                              -
+                ../rtl/parity_calc.v APICall -                              -
+                ../rtl/parity_checker.v APICall -                              -
+                ../rtl/prescale.v APICall -                              -
+                ../rtl/pulse_gen.v APICall -                              -
+                ../rtl/regfile.v  APICall -                              -
+                ../rtl/sampler.v  APICall -                              -
+                ../rtl/serializer.v APICall -                              -
+                ../rtl/sys_ctrl.sv APICall -                              -
+                ../rtl/sys_top.v  APICall -                              -
+                ../rtl/uart_rx.v  APICall -                              -
+                ../rtl/uart_top.v APICall -                              -
+                ../rtl/uart_tx.v  APICall -                              -
+
+
+Rules Parameter
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+===============================================================================
+Parameter       Origin  File                           LineNo
+===============================================================================
+
+
+Policy Info
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+===============================================================================
+NameOfPolicy    VersionNumber   Path (from where policy loaded)
+===============================================================================
+spyglass        SpyGlass_vL-2016.06 $SPYGLASS_HOME/policies/spyglass
+
+

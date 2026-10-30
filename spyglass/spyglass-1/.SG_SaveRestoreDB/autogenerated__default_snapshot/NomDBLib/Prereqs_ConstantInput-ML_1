@@ -1,0 +1,2 @@
+CLK_DIV,../rtl/sys_top.v_102,1,clk_en,1'b1
+CLK_DIV,../rtl/sys_top.v_126,1,clk_en,1'b1

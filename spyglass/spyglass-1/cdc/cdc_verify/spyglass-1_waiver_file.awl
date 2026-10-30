@@ -1,0 +1,10 @@
+waive -rule {  {Setup_port01}  } 
+waive -rule {  {Setup_port01}  } 
+waive -rule {  {Ac_conv01}  } 
+waive -rule {  {Ac_conv01}  } 
+waive -rule {  {Ac_conv02}  } 
+waive -rule {  {Ac_conv02}  } 
+
+# waive -rule {  {Ac_cdc01a}  }  -comment {Created by ICer on 07-Oct-2026 10:22:15}  -exact 
+waive -rule {  {Ac_cdc01a}  }  -comment {Gray-coded FIFO write pointer through 2-flop sync. One bit changes per increment, so skipped values only make empty conservative. Safe by design.}  -exact 
+waive -rule {  {Ac_cdc01a}  }  -comment {Gray-coded FIFO write pointer through 2-flop sync. One bit changes per increment, so skipped values only make empty conservative. Safe by design.}  -exact 

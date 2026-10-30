@@ -1,0 +1,14 @@
+
+clock@@name@@SYS_TOP.REF_CLK@@domain@@d0@@period@@10@@tag@@sys_clk@@
+clock@@name@@SYS_TOP.UART_CLK@@domain@@d1@@period@@271.267@@tag@@ext_uart_clk@@
+clock@@name@@SYS_TOP.div_clk_1@@domain@@d1@@period@@8680.544@@tag@@tx_uart_clk@@
+clock@@name@@SYS_TOP.div_clk_2@@domain@@d1@@period@@271.267@@tag@@rx_uart_clk@@
+reset@@name@@SYS_TOP.RST@@value@@0@@async@@
+reset@@name@@SYS_TOP.u_rst_sync_1.SYNC_RST@@value@@0@@async@@
+reset@@name@@SYS_TOP.u_rst_sync_2.SYNC_RST@@value@@0@@async@@
+quasi_static@@SYS_TOP.RF.u_Reg_File[127:0]@@
+quasi_static@@SYS_TOP.RF.u_Reg_File[127:0]@@
+cdc_false_path@@from@@SYS_TOP.u_async_fifo.MEM.mem_array[63:0]@@to@@SYS_TOP.UART.u_uart_tx.u_serializer.data_reg[7:0]@@from_type@@flop@@to_type@@flop@@
+cdc_false_path@@from@@SYS_TOP.u_async_fifo.MEM.mem_array[63:0]@@to@@SYS_TOP.UART.u_uart_tx.u_parity_calc.parity_bit@@from_type@@flop@@to_type@@flop@@
+cdc_false_path@@from@@SYS_TOP.u_async_fifo.MEM.mem_array[63:0]@@to@@SYS_TOP.UART.u_uart_tx.u_serializer.serial_data@@from_type@@flop@@to_type@@flop@@
+rounded_clocks@@3@@75@@

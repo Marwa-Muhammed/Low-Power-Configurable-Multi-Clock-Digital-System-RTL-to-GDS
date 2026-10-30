@@ -1,0 +1,1320 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -max_paths 20
+Design : SYS_TOP
+Version: O-2018.06-SP1
+Date   : Wed Oct 14 09:46:00 2026
+****************************************
+
+Operating Conditions: scmetro_tsmc_cl013g_rvt_ff_1p32v_m40c   Library: scmetro_tsmc_cl013g_rvt_ff_1p32v_m40c
+Wire Load Model Mode: top
+
+  Startpoint: ALU/u_Arithmatic_unit/arith_OUT_reg[14]
+              (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Endpoint: ALU/u_Arithmatic_unit/arith_OUT_reg[15]
+            (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Path Group: ALU_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock ALU_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  ALU/u_Arithmatic_unit/arith_OUT_reg[14]/CK (SDFFRQX2M)
+                                                          0.00       0.00 r
+  ALU/u_Arithmatic_unit/arith_OUT_reg[14]/Q (SDFFRQX2M)
+                                                          0.35       0.35 r
+  ALU/u_Arithmatic_unit/arith_OUT_reg[15]/SI (SDFFRQX2M)
+                                                          0.00       0.35 r
+  data arrival time                                                  0.35
+
+  clock ALU_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.10       0.10
+  ALU/u_Arithmatic_unit/arith_OUT_reg[15]/CK (SDFFRQX2M)
+                                                          0.00       0.10 r
+  library hold time                                      -0.18      -0.08
+  data required time                                                -0.08
+  --------------------------------------------------------------------------
+  data required time                                                -0.08
+  data arrival time                                                 -0.35
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.43
+
+
+  Startpoint: ALU/u_Arithmatic_unit/arith_OUT_reg[13]
+              (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Endpoint: ALU/u_Arithmatic_unit/arith_OUT_reg[14]
+            (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Path Group: ALU_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock ALU_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  ALU/u_Arithmatic_unit/arith_OUT_reg[13]/CK (SDFFRQX2M)
+                                                          0.00       0.00 r
+  ALU/u_Arithmatic_unit/arith_OUT_reg[13]/Q (SDFFRQX2M)
+                                                          0.35       0.35 r
+  ALU/u_Arithmatic_unit/arith_OUT_reg[14]/SI (SDFFRQX2M)
+                                                          0.00       0.35 r
+  data arrival time                                                  0.35
+
+  clock ALU_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.10       0.10
+  ALU/u_Arithmatic_unit/arith_OUT_reg[14]/CK (SDFFRQX2M)
+                                                          0.00       0.10 r
+  library hold time                                      -0.18      -0.08
+  data required time                                                -0.08
+  --------------------------------------------------------------------------
+  data required time                                                -0.08
+  data arrival time                                                 -0.35
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.43
+
+
+  Startpoint: ALU/u_Arithmatic_unit/arith_OUT_reg[12]
+              (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Endpoint: ALU/u_Arithmatic_unit/arith_OUT_reg[13]
+            (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Path Group: ALU_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock ALU_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  ALU/u_Arithmatic_unit/arith_OUT_reg[12]/CK (SDFFRQX2M)
+                                                          0.00       0.00 r
+  ALU/u_Arithmatic_unit/arith_OUT_reg[12]/Q (SDFFRQX2M)
+                                                          0.35       0.35 r
+  ALU/u_Arithmatic_unit/arith_OUT_reg[13]/SI (SDFFRQX2M)
+                                                          0.00       0.35 r
+  data arrival time                                                  0.35
+
+  clock ALU_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.10       0.10
+  ALU/u_Arithmatic_unit/arith_OUT_reg[13]/CK (SDFFRQX2M)
+                                                          0.00       0.10 r
+  library hold time                                      -0.18      -0.08
+  data required time                                                -0.08
+  --------------------------------------------------------------------------
+  data required time                                                -0.08
+  data arrival time                                                 -0.35
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.43
+
+
+  Startpoint: ALU/u_Arithmatic_unit/arith_OUT_reg[11]
+              (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Endpoint: ALU/u_Arithmatic_unit/arith_OUT_reg[12]
+            (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Path Group: ALU_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock ALU_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  ALU/u_Arithmatic_unit/arith_OUT_reg[11]/CK (SDFFRQX2M)
+                                                          0.00       0.00 r
+  ALU/u_Arithmatic_unit/arith_OUT_reg[11]/Q (SDFFRQX2M)
+                                                          0.35       0.35 r
+  ALU/u_Arithmatic_unit/arith_OUT_reg[12]/SI (SDFFRQX2M)
+                                                          0.00       0.35 r
+  data arrival time                                                  0.35
+
+  clock ALU_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.10       0.10
+  ALU/u_Arithmatic_unit/arith_OUT_reg[12]/CK (SDFFRQX2M)
+                                                          0.00       0.10 r
+  library hold time                                      -0.18      -0.08
+  data required time                                                -0.08
+  --------------------------------------------------------------------------
+  data required time                                                -0.08
+  data arrival time                                                 -0.35
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.43
+
+
+  Startpoint: ALU/u_Arithmatic_unit/arith_OUT_reg[10]
+              (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Endpoint: ALU/u_Arithmatic_unit/arith_OUT_reg[11]
+            (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Path Group: ALU_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock ALU_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  ALU/u_Arithmatic_unit/arith_OUT_reg[10]/CK (SDFFRQX2M)
+                                                          0.00       0.00 r
+  ALU/u_Arithmatic_unit/arith_OUT_reg[10]/Q (SDFFRQX2M)
+                                                          0.35       0.35 r
+  ALU/u_Arithmatic_unit/arith_OUT_reg[11]/SI (SDFFRQX2M)
+                                                          0.00       0.35 r
+  data arrival time                                                  0.35
+
+  clock ALU_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.10       0.10
+  ALU/u_Arithmatic_unit/arith_OUT_reg[11]/CK (SDFFRQX2M)
+                                                          0.00       0.10 r
+  library hold time                                      -0.18      -0.08
+  data required time                                                -0.08
+  --------------------------------------------------------------------------
+  data required time                                                -0.08
+  data arrival time                                                 -0.35
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.43
+
+
+  Startpoint: ALU/u_Arithmatic_unit/arith_OUT_reg[9]
+              (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Endpoint: ALU/u_Arithmatic_unit/arith_OUT_reg[10]
+            (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Path Group: ALU_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock ALU_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  ALU/u_Arithmatic_unit/arith_OUT_reg[9]/CK (SDFFRQX2M)
+                                                          0.00       0.00 r
+  ALU/u_Arithmatic_unit/arith_OUT_reg[9]/Q (SDFFRQX2M)
+                                                          0.35       0.35 r
+  ALU/u_Arithmatic_unit/arith_OUT_reg[10]/SI (SDFFRQX2M)
+                                                          0.00       0.35 r
+  data arrival time                                                  0.35
+
+  clock ALU_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.10       0.10
+  ALU/u_Arithmatic_unit/arith_OUT_reg[10]/CK (SDFFRQX2M)
+                                                          0.00       0.10 r
+  library hold time                                      -0.18      -0.08
+  data required time                                                -0.08
+  --------------------------------------------------------------------------
+  data required time                                                -0.08
+  data arrival time                                                 -0.35
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.43
+
+
+  Startpoint: ALU/u_Arithmatic_unit/arith_OUT_reg[8]
+              (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Endpoint: ALU/u_Arithmatic_unit/arith_OUT_reg[9]
+            (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Path Group: ALU_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock ALU_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  ALU/u_Arithmatic_unit/arith_OUT_reg[8]/CK (SDFFRQX2M)
+                                                          0.00       0.00 r
+  ALU/u_Arithmatic_unit/arith_OUT_reg[8]/Q (SDFFRQX2M)
+                                                          0.35       0.35 r
+  ALU/u_Arithmatic_unit/arith_OUT_reg[9]/SI (SDFFRQX2M)
+                                                          0.00       0.35 r
+  data arrival time                                                  0.35
+
+  clock ALU_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.10       0.10
+  ALU/u_Arithmatic_unit/arith_OUT_reg[9]/CK (SDFFRQX2M)
+                                                          0.00       0.10 r
+  library hold time                                      -0.18      -0.08
+  data required time                                                -0.08
+  --------------------------------------------------------------------------
+  data required time                                                -0.08
+  data arrival time                                                 -0.35
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.43
+
+
+  Startpoint: ALU/u_Arithmatic_unit/arith_OUT_reg[15]
+              (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Endpoint: ALU/u_Arithmatic_unit/arith_flag_reg
+            (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Path Group: ALU_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock ALU_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  ALU/u_Arithmatic_unit/arith_OUT_reg[15]/CK (SDFFRQX2M)
+                                                          0.00       0.00 r
+  ALU/u_Arithmatic_unit/arith_OUT_reg[15]/Q (SDFFRQX2M)
+                                                          0.35       0.35 r
+  ALU/u_Arithmatic_unit/arith_flag_reg/SI (SDFFRQX2M)     0.00       0.35 r
+  data arrival time                                                  0.35
+
+  clock ALU_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.10       0.10
+  ALU/u_Arithmatic_unit/arith_flag_reg/CK (SDFFRQX2M)     0.00       0.10 r
+  library hold time                                      -0.18      -0.08
+  data required time                                                -0.08
+  --------------------------------------------------------------------------
+  data required time                                                -0.08
+  data arrival time                                                 -0.35
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.43
+
+
+  Startpoint: ALU/u_CMP_unit/cmp_OUT_reg[0]
+              (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Endpoint: ALU/u_CMP_unit/cmp_OUT_reg[1]
+            (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Path Group: ALU_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock ALU_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  ALU/u_CMP_unit/cmp_OUT_reg[0]/CK (SDFFRQX2M)            0.00       0.00 r
+  ALU/u_CMP_unit/cmp_OUT_reg[0]/Q (SDFFRQX2M)             0.35       0.35 r
+  ALU/u_CMP_unit/cmp_OUT_reg[1]/SI (SDFFRQX2M)            0.00       0.35 r
+  data arrival time                                                  0.35
+
+  clock ALU_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.10       0.10
+  ALU/u_CMP_unit/cmp_OUT_reg[1]/CK (SDFFRQX2M)            0.00       0.10 r
+  library hold time                                      -0.18      -0.08
+  data required time                                                -0.08
+  --------------------------------------------------------------------------
+  data required time                                                -0.08
+  data arrival time                                                 -0.35
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.43
+
+
+  Startpoint: ALU/u_CMP_unit/cmp_OUT_reg[1]
+              (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Endpoint: ALU/u_CMP_unit/cmp_flag_reg
+            (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Path Group: ALU_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock ALU_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  ALU/u_CMP_unit/cmp_OUT_reg[1]/CK (SDFFRQX2M)            0.00       0.00 r
+  ALU/u_CMP_unit/cmp_OUT_reg[1]/Q (SDFFRQX2M)             0.35       0.35 r
+  ALU/u_CMP_unit/cmp_flag_reg/SI (SDFFRQX2M)              0.00       0.35 r
+  data arrival time                                                  0.35
+
+  clock ALU_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.10       0.10
+  ALU/u_CMP_unit/cmp_flag_reg/CK (SDFFRQX2M)              0.00       0.10 r
+  library hold time                                      -0.18      -0.08
+  data required time                                                -0.08
+  --------------------------------------------------------------------------
+  data required time                                                -0.08
+  data arrival time                                                 -0.35
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.43
+
+
+  Startpoint: ALU/u_Arithmatic_unit/arith_OUT_reg[6]
+              (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Endpoint: ALU/u_Arithmatic_unit/arith_OUT_reg[7]
+            (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Path Group: ALU_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock ALU_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  ALU/u_Arithmatic_unit/arith_OUT_reg[6]/CK (SDFFRQX2M)
+                                                          0.00       0.00 r
+  ALU/u_Arithmatic_unit/arith_OUT_reg[6]/Q (SDFFRQX2M)
+                                                          0.35       0.35 r
+  ALU/u_Arithmatic_unit/arith_OUT_reg[7]/SI (SDFFRQX2M)
+                                                          0.00       0.35 r
+  data arrival time                                                  0.35
+
+  clock ALU_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.10       0.10
+  ALU/u_Arithmatic_unit/arith_OUT_reg[7]/CK (SDFFRQX2M)
+                                                          0.00       0.10 r
+  library hold time                                      -0.18      -0.08
+  data required time                                                -0.08
+  --------------------------------------------------------------------------
+  data required time                                                -0.08
+  data arrival time                                                 -0.35
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.43
+
+
+  Startpoint: ALU/u_Arithmatic_unit/arith_OUT_reg[5]
+              (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Endpoint: ALU/u_Arithmatic_unit/arith_OUT_reg[6]
+            (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Path Group: ALU_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock ALU_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  ALU/u_Arithmatic_unit/arith_OUT_reg[5]/CK (SDFFRQX2M)
+                                                          0.00       0.00 r
+  ALU/u_Arithmatic_unit/arith_OUT_reg[5]/Q (SDFFRQX2M)
+                                                          0.35       0.35 r
+  ALU/u_Arithmatic_unit/arith_OUT_reg[6]/SI (SDFFRQX2M)
+                                                          0.00       0.35 r
+  data arrival time                                                  0.35
+
+  clock ALU_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.10       0.10
+  ALU/u_Arithmatic_unit/arith_OUT_reg[6]/CK (SDFFRQX2M)
+                                                          0.00       0.10 r
+  library hold time                                      -0.18      -0.08
+  data required time                                                -0.08
+  --------------------------------------------------------------------------
+  data required time                                                -0.08
+  data arrival time                                                 -0.35
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.43
+
+
+  Startpoint: ALU/u_Arithmatic_unit/arith_OUT_reg[4]
+              (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Endpoint: ALU/u_Arithmatic_unit/arith_OUT_reg[5]
+            (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Path Group: ALU_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock ALU_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  ALU/u_Arithmatic_unit/arith_OUT_reg[4]/CK (SDFFRQX2M)
+                                                          0.00       0.00 r
+  ALU/u_Arithmatic_unit/arith_OUT_reg[4]/Q (SDFFRQX2M)
+                                                          0.35       0.35 r
+  ALU/u_Arithmatic_unit/arith_OUT_reg[5]/SI (SDFFRQX2M)
+                                                          0.00       0.35 r
+  data arrival time                                                  0.35
+
+  clock ALU_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.10       0.10
+  ALU/u_Arithmatic_unit/arith_OUT_reg[5]/CK (SDFFRQX2M)
+                                                          0.00       0.10 r
+  library hold time                                      -0.18      -0.08
+  data required time                                                -0.08
+  --------------------------------------------------------------------------
+  data required time                                                -0.08
+  data arrival time                                                 -0.35
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.43
+
+
+  Startpoint: ALU/u_Arithmatic_unit/arith_OUT_reg[3]
+              (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Endpoint: ALU/u_Arithmatic_unit/arith_OUT_reg[4]
+            (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Path Group: ALU_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock ALU_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  ALU/u_Arithmatic_unit/arith_OUT_reg[3]/CK (SDFFRQX2M)
+                                                          0.00       0.00 r
+  ALU/u_Arithmatic_unit/arith_OUT_reg[3]/Q (SDFFRQX2M)
+                                                          0.35       0.35 r
+  ALU/u_Arithmatic_unit/arith_OUT_reg[4]/SI (SDFFRQX2M)
+                                                          0.00       0.35 r
+  data arrival time                                                  0.35
+
+  clock ALU_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.10       0.10
+  ALU/u_Arithmatic_unit/arith_OUT_reg[4]/CK (SDFFRQX2M)
+                                                          0.00       0.10 r
+  library hold time                                      -0.18      -0.08
+  data required time                                                -0.08
+  --------------------------------------------------------------------------
+  data required time                                                -0.08
+  data arrival time                                                 -0.35
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.43
+
+
+  Startpoint: ALU/u_Arithmatic_unit/arith_OUT_reg[2]
+              (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Endpoint: ALU/u_Arithmatic_unit/arith_OUT_reg[3]
+            (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Path Group: ALU_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock ALU_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  ALU/u_Arithmatic_unit/arith_OUT_reg[2]/CK (SDFFRQX2M)
+                                                          0.00       0.00 r
+  ALU/u_Arithmatic_unit/arith_OUT_reg[2]/Q (SDFFRQX2M)
+                                                          0.35       0.35 r
+  ALU/u_Arithmatic_unit/arith_OUT_reg[3]/SI (SDFFRQX2M)
+                                                          0.00       0.35 r
+  data arrival time                                                  0.35
+
+  clock ALU_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.10       0.10
+  ALU/u_Arithmatic_unit/arith_OUT_reg[3]/CK (SDFFRQX2M)
+                                                          0.00       0.10 r
+  library hold time                                      -0.18      -0.08
+  data required time                                                -0.08
+  --------------------------------------------------------------------------
+  data required time                                                -0.08
+  data arrival time                                                 -0.35
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.43
+
+
+  Startpoint: ALU/u_Arithmatic_unit/arith_OUT_reg[1]
+              (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Endpoint: ALU/u_Arithmatic_unit/arith_OUT_reg[2]
+            (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Path Group: ALU_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock ALU_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  ALU/u_Arithmatic_unit/arith_OUT_reg[1]/CK (SDFFRQX2M)
+                                                          0.00       0.00 r
+  ALU/u_Arithmatic_unit/arith_OUT_reg[1]/Q (SDFFRQX2M)
+                                                          0.35       0.35 r
+  ALU/u_Arithmatic_unit/arith_OUT_reg[2]/SI (SDFFRQX2M)
+                                                          0.00       0.35 r
+  data arrival time                                                  0.35
+
+  clock ALU_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.10       0.10
+  ALU/u_Arithmatic_unit/arith_OUT_reg[2]/CK (SDFFRQX2M)
+                                                          0.00       0.10 r
+  library hold time                                      -0.18      -0.08
+  data required time                                                -0.08
+  --------------------------------------------------------------------------
+  data required time                                                -0.08
+  data arrival time                                                 -0.35
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.43
+
+
+  Startpoint: ALU/u_Arithmatic_unit/arith_OUT_reg[0]
+              (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Endpoint: ALU/u_Arithmatic_unit/arith_OUT_reg[1]
+            (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Path Group: ALU_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock ALU_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  ALU/u_Arithmatic_unit/arith_OUT_reg[0]/CK (SDFFRQX2M)
+                                                          0.00       0.00 r
+  ALU/u_Arithmatic_unit/arith_OUT_reg[0]/Q (SDFFRQX2M)
+                                                          0.35       0.35 r
+  ALU/u_Arithmatic_unit/arith_OUT_reg[1]/SI (SDFFRQX2M)
+                                                          0.00       0.35 r
+  data arrival time                                                  0.35
+
+  clock ALU_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.10       0.10
+  ALU/u_Arithmatic_unit/arith_OUT_reg[1]/CK (SDFFRQX2M)
+                                                          0.00       0.10 r
+  library hold time                                      -0.18      -0.08
+  data required time                                                -0.08
+  --------------------------------------------------------------------------
+  data required time                                                -0.08
+  data arrival time                                                 -0.35
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.43
+
+
+  Startpoint: ALU/u_Arithmatic_unit/arith_OUT_reg[7]
+              (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Endpoint: ALU/u_Arithmatic_unit/arith_OUT_reg[8]
+            (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Path Group: ALU_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock ALU_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  ALU/u_Arithmatic_unit/arith_OUT_reg[7]/CK (SDFFRQX2M)
+                                                          0.00       0.00 r
+  ALU/u_Arithmatic_unit/arith_OUT_reg[7]/Q (SDFFRQX2M)
+                                                          0.35       0.35 r
+  ALU/u_Arithmatic_unit/arith_OUT_reg[8]/SI (SDFFRQX2M)
+                                                          0.00       0.35 r
+  data arrival time                                                  0.35
+
+  clock ALU_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.10       0.10
+  ALU/u_Arithmatic_unit/arith_OUT_reg[8]/CK (SDFFRQX2M)
+                                                          0.00       0.10 r
+  library hold time                                      -0.18      -0.08
+  data required time                                                -0.08
+  --------------------------------------------------------------------------
+  data required time                                                -0.08
+  data arrival time                                                 -0.35
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.43
+
+
+  Startpoint: ALU/u_Logic_unit/logic_OUT_reg[1]
+              (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Endpoint: ALU/u_Logic_unit/logic_OUT_reg[2]
+            (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Path Group: ALU_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock ALU_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  ALU/u_Logic_unit/logic_OUT_reg[1]/CK (SDFFRQX2M)        0.00       0.00 r
+  ALU/u_Logic_unit/logic_OUT_reg[1]/Q (SDFFRQX2M)         0.35       0.35 r
+  ALU/u_Logic_unit/logic_OUT_reg[2]/SI (SDFFRQX2M)        0.00       0.35 r
+  data arrival time                                                  0.35
+
+  clock ALU_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.10       0.10
+  ALU/u_Logic_unit/logic_OUT_reg[2]/CK (SDFFRQX2M)        0.00       0.10 r
+  library hold time                                      -0.18      -0.08
+  data required time                                                -0.08
+  --------------------------------------------------------------------------
+  data required time                                                -0.08
+  data arrival time                                                 -0.35
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.43
+
+
+  Startpoint: ALU/u_Logic_unit/logic_OUT_reg[0]
+              (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Endpoint: ALU/u_Logic_unit/logic_OUT_reg[1]
+            (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Path Group: ALU_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock ALU_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  ALU/u_Logic_unit/logic_OUT_reg[0]/CK (SDFFRQX2M)        0.00       0.00 r
+  ALU/u_Logic_unit/logic_OUT_reg[0]/Q (SDFFRQX2M)         0.35       0.35 r
+  ALU/u_Logic_unit/logic_OUT_reg[1]/SI (SDFFRQX2M)        0.00       0.35 r
+  data arrival time                                                  0.35
+
+  clock ALU_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.10       0.10
+  ALU/u_Logic_unit/logic_OUT_reg[1]/CK (SDFFRQX2M)        0.00       0.10 r
+  library hold time                                      -0.18      -0.08
+  data required time                                                -0.08
+  --------------------------------------------------------------------------
+  data required time                                                -0.08
+  data arrival time                                                 -0.35
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.43
+
+
+  Startpoint: UART/u_uart_rx/deser_inst/P_DATA_reg[7]
+              (rising edge-triggered flip-flop clocked by DFT_CLK)
+  Endpoint: UART/u_uart_rx/fsm_inst/current_state_reg[0]
+            (rising edge-triggered flip-flop clocked by DFT_CLK)
+  Path Group: DFT_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFT_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  UART/u_uart_rx/deser_inst/P_DATA_reg[7]/CK (SDFFRX1M)
+                                                          0.00       0.00 r
+  UART/u_uart_rx/deser_inst/P_DATA_reg[7]/QN (SDFFRX1M)
+                                                          0.31       0.31 r
+  UART/u_uart_rx/deser_inst/test_so (deserializer_test_1)
+                                                          0.00       0.31 r
+  UART/u_uart_rx/fsm_inst/test_si (Rx_FSM_test_1)         0.00       0.31 r
+  UART/u_uart_rx/fsm_inst/current_state_reg[0]/SI (SDFFRQX2M)
+                                                          0.00       0.31 r
+  data arrival time                                                  0.31
+
+  clock DFT_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.01       0.01
+  UART/u_uart_rx/fsm_inst/current_state_reg[0]/CK (SDFFRQX2M)
+                                                          0.00       0.01 r
+  library hold time                                      -0.18      -0.17
+  data required time                                                -0.17
+  --------------------------------------------------------------------------
+  data required time                                                -0.17
+  data arrival time                                                 -0.31
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.48
+
+
+  Startpoint: UART/u_uart_rx/deser_inst/P_DATA_reg[1]
+              (rising edge-triggered flip-flop clocked by DFT_CLK)
+  Endpoint: UART/u_uart_rx/deser_inst/P_DATA_reg[2]
+            (rising edge-triggered flip-flop clocked by DFT_CLK)
+  Path Group: DFT_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFT_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  UART/u_uart_rx/deser_inst/P_DATA_reg[1]/CK (SDFFRX1M)
+                                                          0.00       0.00 r
+  UART/u_uart_rx/deser_inst/P_DATA_reg[1]/QN (SDFFRX1M)
+                                                          0.31       0.31 r
+  UART/u_uart_rx/deser_inst/P_DATA_reg[2]/SI (SDFFRX1M)
+                                                          0.00       0.31 r
+  data arrival time                                                  0.31
+
+  clock DFT_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.01       0.01
+  UART/u_uart_rx/deser_inst/P_DATA_reg[2]/CK (SDFFRX1M)
+                                                          0.00       0.01 r
+  library hold time                                      -0.20      -0.19
+  data required time                                                -0.19
+  --------------------------------------------------------------------------
+  data required time                                                -0.19
+  data arrival time                                                 -0.31
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.50
+
+
+  Startpoint: UART/u_uart_rx/deser_inst/P_DATA_reg[4]
+              (rising edge-triggered flip-flop clocked by DFT_CLK)
+  Endpoint: UART/u_uart_rx/deser_inst/P_DATA_reg[5]
+            (rising edge-triggered flip-flop clocked by DFT_CLK)
+  Path Group: DFT_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFT_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  UART/u_uart_rx/deser_inst/P_DATA_reg[4]/CK (SDFFRX1M)
+                                                          0.00       0.00 r
+  UART/u_uart_rx/deser_inst/P_DATA_reg[4]/QN (SDFFRX1M)
+                                                          0.31       0.31 r
+  UART/u_uart_rx/deser_inst/P_DATA_reg[5]/SI (SDFFRX1M)
+                                                          0.00       0.31 r
+  data arrival time                                                  0.31
+
+  clock DFT_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.01       0.01
+  UART/u_uart_rx/deser_inst/P_DATA_reg[5]/CK (SDFFRX1M)
+                                                          0.00       0.01 r
+  library hold time                                      -0.20      -0.19
+  data required time                                                -0.19
+  --------------------------------------------------------------------------
+  data required time                                                -0.19
+  data arrival time                                                 -0.31
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.50
+
+
+  Startpoint: UART/u_uart_rx/deser_inst/P_DATA_reg[3]
+              (rising edge-triggered flip-flop clocked by DFT_CLK)
+  Endpoint: UART/u_uart_rx/deser_inst/P_DATA_reg[4]
+            (rising edge-triggered flip-flop clocked by DFT_CLK)
+  Path Group: DFT_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFT_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  UART/u_uart_rx/deser_inst/P_DATA_reg[3]/CK (SDFFRX1M)
+                                                          0.00       0.00 r
+  UART/u_uart_rx/deser_inst/P_DATA_reg[3]/QN (SDFFRX1M)
+                                                          0.31       0.31 r
+  UART/u_uart_rx/deser_inst/P_DATA_reg[4]/SI (SDFFRX1M)
+                                                          0.00       0.31 r
+  data arrival time                                                  0.31
+
+  clock DFT_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.01       0.01
+  UART/u_uart_rx/deser_inst/P_DATA_reg[4]/CK (SDFFRX1M)
+                                                          0.00       0.01 r
+  library hold time                                      -0.20      -0.19
+  data required time                                                -0.19
+  --------------------------------------------------------------------------
+  data required time                                                -0.19
+  data arrival time                                                 -0.31
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.50
+
+
+  Startpoint: UART/u_uart_rx/deser_inst/P_DATA_reg[6]
+              (rising edge-triggered flip-flop clocked by DFT_CLK)
+  Endpoint: UART/u_uart_rx/deser_inst/P_DATA_reg[7]
+            (rising edge-triggered flip-flop clocked by DFT_CLK)
+  Path Group: DFT_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFT_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  UART/u_uart_rx/deser_inst/P_DATA_reg[6]/CK (SDFFRX1M)
+                                                          0.00       0.00 r
+  UART/u_uart_rx/deser_inst/P_DATA_reg[6]/QN (SDFFRX1M)
+                                                          0.31       0.31 r
+  UART/u_uart_rx/deser_inst/P_DATA_reg[7]/SI (SDFFRX1M)
+                                                          0.00       0.31 r
+  data arrival time                                                  0.31
+
+  clock DFT_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.01       0.01
+  UART/u_uart_rx/deser_inst/P_DATA_reg[7]/CK (SDFFRX1M)
+                                                          0.00       0.01 r
+  library hold time                                      -0.20      -0.19
+  data required time                                                -0.19
+  --------------------------------------------------------------------------
+  data required time                                                -0.19
+  data arrival time                                                 -0.31
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.50
+
+
+  Startpoint: UART/u_uart_rx/deser_inst/P_DATA_reg[2]
+              (rising edge-triggered flip-flop clocked by DFT_CLK)
+  Endpoint: UART/u_uart_rx/deser_inst/P_DATA_reg[3]
+            (rising edge-triggered flip-flop clocked by DFT_CLK)
+  Path Group: DFT_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFT_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  UART/u_uart_rx/deser_inst/P_DATA_reg[2]/CK (SDFFRX1M)
+                                                          0.00       0.00 r
+  UART/u_uart_rx/deser_inst/P_DATA_reg[2]/QN (SDFFRX1M)
+                                                          0.31       0.31 r
+  UART/u_uart_rx/deser_inst/P_DATA_reg[3]/SI (SDFFRX1M)
+                                                          0.00       0.31 r
+  data arrival time                                                  0.31
+
+  clock DFT_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.01       0.01
+  UART/u_uart_rx/deser_inst/P_DATA_reg[3]/CK (SDFFRX1M)
+                                                          0.00       0.01 r
+  library hold time                                      -0.20      -0.19
+  data required time                                                -0.19
+  --------------------------------------------------------------------------
+  data required time                                                -0.19
+  data arrival time                                                 -0.31
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.50
+
+
+  Startpoint: UART/u_uart_rx/deser_inst/P_DATA_reg[5]
+              (rising edge-triggered flip-flop clocked by DFT_CLK)
+  Endpoint: UART/u_uart_rx/deser_inst/P_DATA_reg[6]
+            (rising edge-triggered flip-flop clocked by DFT_CLK)
+  Path Group: DFT_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFT_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  UART/u_uart_rx/deser_inst/P_DATA_reg[5]/CK (SDFFRX1M)
+                                                          0.00       0.00 r
+  UART/u_uart_rx/deser_inst/P_DATA_reg[5]/QN (SDFFRX1M)
+                                                          0.31       0.31 r
+  UART/u_uart_rx/deser_inst/P_DATA_reg[6]/SI (SDFFRX1M)
+                                                          0.00       0.31 r
+  data arrival time                                                  0.31
+
+  clock DFT_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.01       0.01
+  UART/u_uart_rx/deser_inst/P_DATA_reg[6]/CK (SDFFRX1M)
+                                                          0.00       0.01 r
+  library hold time                                      -0.20      -0.19
+  data required time                                                -0.19
+  --------------------------------------------------------------------------
+  data required time                                                -0.19
+  data arrival time                                                 -0.31
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.50
+
+
+  Startpoint: u_async_fifo/wr_2_rd/sync_chain_reg[0][0]
+              (rising edge-triggered flip-flop clocked by DFT_CLK)
+  Endpoint: u_async_fifo/wr_2_rd/gray_ptr_sync_reg[0]
+            (rising edge-triggered flip-flop clocked by DFT_CLK)
+  Path Group: DFT_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFT_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  u_async_fifo/wr_2_rd/sync_chain_reg[0][0]/CK (SDFFRQX2M)
+                                                          0.00       0.00 r
+  u_async_fifo/wr_2_rd/sync_chain_reg[0][0]/Q (SDFFRQX2M)
+                                                          0.35       0.35 r
+  u_async_fifo/wr_2_rd/gray_ptr_sync_reg[0]/D (SDFFRQX2M)
+                                                          0.00       0.35 r
+  data arrival time                                                  0.35
+
+  clock DFT_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.01       0.01
+  u_async_fifo/wr_2_rd/gray_ptr_sync_reg[0]/CK (SDFFRQX2M)
+                                                          0.00       0.01 r
+  library hold time                                      -0.16      -0.15
+  data required time                                                -0.15
+  --------------------------------------------------------------------------
+  data required time                                                -0.15
+  data arrival time                                                 -0.35
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.51
+
+
+  Startpoint: u_async_fifo/wr_2_rd/sync_chain_reg[1][0]
+              (rising edge-triggered flip-flop clocked by DFT_CLK)
+  Endpoint: u_async_fifo/wr_2_rd/gray_ptr_sync_reg[1]
+            (rising edge-triggered flip-flop clocked by DFT_CLK)
+  Path Group: DFT_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFT_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  u_async_fifo/wr_2_rd/sync_chain_reg[1][0]/CK (SDFFRQX2M)
+                                                          0.00       0.00 r
+  u_async_fifo/wr_2_rd/sync_chain_reg[1][0]/Q (SDFFRQX2M)
+                                                          0.35       0.35 r
+  u_async_fifo/wr_2_rd/gray_ptr_sync_reg[1]/D (SDFFRQX2M)
+                                                          0.00       0.35 r
+  data arrival time                                                  0.35
+
+  clock DFT_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.01       0.01
+  u_async_fifo/wr_2_rd/gray_ptr_sync_reg[1]/CK (SDFFRQX2M)
+                                                          0.00       0.01 r
+  library hold time                                      -0.16      -0.15
+  data required time                                                -0.15
+  --------------------------------------------------------------------------
+  data required time                                                -0.15
+  data arrival time                                                 -0.35
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.51
+
+
+  Startpoint: u_async_fifo/wr_2_rd/sync_chain_reg[2][0]
+              (rising edge-triggered flip-flop clocked by DFT_CLK)
+  Endpoint: u_async_fifo/wr_2_rd/gray_ptr_sync_reg[2]
+            (rising edge-triggered flip-flop clocked by DFT_CLK)
+  Path Group: DFT_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFT_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  u_async_fifo/wr_2_rd/sync_chain_reg[2][0]/CK (SDFFRQX2M)
+                                                          0.00       0.00 r
+  u_async_fifo/wr_2_rd/sync_chain_reg[2][0]/Q (SDFFRQX2M)
+                                                          0.35       0.35 r
+  u_async_fifo/wr_2_rd/gray_ptr_sync_reg[2]/D (SDFFRQX2M)
+                                                          0.00       0.35 r
+  data arrival time                                                  0.35
+
+  clock DFT_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.01       0.01
+  u_async_fifo/wr_2_rd/gray_ptr_sync_reg[2]/CK (SDFFRQX2M)
+                                                          0.00       0.01 r
+  library hold time                                      -0.16      -0.15
+  data required time                                                -0.15
+  --------------------------------------------------------------------------
+  data required time                                                -0.15
+  data arrival time                                                 -0.35
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.51
+
+
+  Startpoint: u_async_fifo/wr_2_rd/sync_chain_reg[3][0]
+              (rising edge-triggered flip-flop clocked by DFT_CLK)
+  Endpoint: u_async_fifo/wr_2_rd/gray_ptr_sync_reg[3]
+            (rising edge-triggered flip-flop clocked by DFT_CLK)
+  Path Group: DFT_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFT_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  u_async_fifo/wr_2_rd/sync_chain_reg[3][0]/CK (SDFFRQX2M)
+                                                          0.00       0.00 r
+  u_async_fifo/wr_2_rd/sync_chain_reg[3][0]/Q (SDFFRQX2M)
+                                                          0.35       0.35 r
+  u_async_fifo/wr_2_rd/gray_ptr_sync_reg[3]/D (SDFFRQX2M)
+                                                          0.00       0.35 r
+  data arrival time                                                  0.35
+
+  clock DFT_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.01       0.01
+  u_async_fifo/wr_2_rd/gray_ptr_sync_reg[3]/CK (SDFFRQX2M)
+                                                          0.00       0.01 r
+  library hold time                                      -0.16      -0.15
+  data required time                                                -0.15
+  --------------------------------------------------------------------------
+  data required time                                                -0.15
+  data arrival time                                                 -0.35
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.51
+
+
+  Startpoint: u_async_fifo/wr_2_rd/sync_chain_reg[0][1]
+              (rising edge-triggered flip-flop clocked by DFT_CLK)
+  Endpoint: u_async_fifo/wr_2_rd/sync_chain_reg[0][0]
+            (rising edge-triggered flip-flop clocked by DFT_CLK)
+  Path Group: DFT_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFT_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  u_async_fifo/wr_2_rd/sync_chain_reg[0][1]/CK (SDFFRQX2M)
+                                                          0.00       0.00 r
+  u_async_fifo/wr_2_rd/sync_chain_reg[0][1]/Q (SDFFRQX2M)
+                                                          0.35       0.35 r
+  u_async_fifo/wr_2_rd/sync_chain_reg[0][0]/D (SDFFRQX2M)
+                                                          0.00       0.35 r
+  data arrival time                                                  0.35
+
+  clock DFT_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.01       0.01
+  u_async_fifo/wr_2_rd/sync_chain_reg[0][0]/CK (SDFFRQX2M)
+                                                          0.00       0.01 r
+  library hold time                                      -0.16      -0.15
+  data required time                                                -0.15
+  --------------------------------------------------------------------------
+  data required time                                                -0.15
+  data arrival time                                                 -0.35
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.51
+
+
+  Startpoint: u_async_fifo/rd_2_wr/sync_chain_reg[0][0]
+              (rising edge-triggered flip-flop clocked by DFT_CLK)
+  Endpoint: u_async_fifo/rd_2_wr/gray_ptr_sync_reg[0]
+            (rising edge-triggered flip-flop clocked by DFT_CLK)
+  Path Group: DFT_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFT_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  u_async_fifo/rd_2_wr/sync_chain_reg[0][0]/CK (SDFFRQX2M)
+                                                          0.00       0.00 r
+  u_async_fifo/rd_2_wr/sync_chain_reg[0][0]/Q (SDFFRQX2M)
+                                                          0.35       0.35 r
+  u_async_fifo/rd_2_wr/gray_ptr_sync_reg[0]/D (SDFFRQX2M)
+                                                          0.00       0.35 r
+  data arrival time                                                  0.35
+
+  clock DFT_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.01       0.01
+  u_async_fifo/rd_2_wr/gray_ptr_sync_reg[0]/CK (SDFFRQX2M)
+                                                          0.00       0.01 r
+  library hold time                                      -0.16      -0.15
+  data required time                                                -0.15
+  --------------------------------------------------------------------------
+  data required time                                                -0.15
+  data arrival time                                                 -0.35
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.51
+
+
+  Startpoint: u_async_fifo/rd_2_wr/sync_chain_reg[1][0]
+              (rising edge-triggered flip-flop clocked by DFT_CLK)
+  Endpoint: u_async_fifo/rd_2_wr/gray_ptr_sync_reg[1]
+            (rising edge-triggered flip-flop clocked by DFT_CLK)
+  Path Group: DFT_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFT_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  u_async_fifo/rd_2_wr/sync_chain_reg[1][0]/CK (SDFFRQX2M)
+                                                          0.00       0.00 r
+  u_async_fifo/rd_2_wr/sync_chain_reg[1][0]/Q (SDFFRQX2M)
+                                                          0.35       0.35 r
+  u_async_fifo/rd_2_wr/gray_ptr_sync_reg[1]/D (SDFFRQX2M)
+                                                          0.00       0.35 r
+  data arrival time                                                  0.35
+
+  clock DFT_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.01       0.01
+  u_async_fifo/rd_2_wr/gray_ptr_sync_reg[1]/CK (SDFFRQX2M)
+                                                          0.00       0.01 r
+  library hold time                                      -0.16      -0.15
+  data required time                                                -0.15
+  --------------------------------------------------------------------------
+  data required time                                                -0.15
+  data arrival time                                                 -0.35
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.51
+
+
+  Startpoint: u_async_fifo/rd_2_wr/sync_chain_reg[2][0]
+              (rising edge-triggered flip-flop clocked by DFT_CLK)
+  Endpoint: u_async_fifo/rd_2_wr/gray_ptr_sync_reg[2]
+            (rising edge-triggered flip-flop clocked by DFT_CLK)
+  Path Group: DFT_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFT_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  u_async_fifo/rd_2_wr/sync_chain_reg[2][0]/CK (SDFFRQX2M)
+                                                          0.00       0.00 r
+  u_async_fifo/rd_2_wr/sync_chain_reg[2][0]/Q (SDFFRQX2M)
+                                                          0.35       0.35 r
+  u_async_fifo/rd_2_wr/gray_ptr_sync_reg[2]/D (SDFFRQX2M)
+                                                          0.00       0.35 r
+  data arrival time                                                  0.35
+
+  clock DFT_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.01       0.01
+  u_async_fifo/rd_2_wr/gray_ptr_sync_reg[2]/CK (SDFFRQX2M)
+                                                          0.00       0.01 r
+  library hold time                                      -0.16      -0.15
+  data required time                                                -0.15
+  --------------------------------------------------------------------------
+  data required time                                                -0.15
+  data arrival time                                                 -0.35
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.51
+
+
+  Startpoint: u_async_fifo/rd_2_wr/sync_chain_reg[3][0]
+              (rising edge-triggered flip-flop clocked by DFT_CLK)
+  Endpoint: u_async_fifo/rd_2_wr/gray_ptr_sync_reg[3]
+            (rising edge-triggered flip-flop clocked by DFT_CLK)
+  Path Group: DFT_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFT_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  u_async_fifo/rd_2_wr/sync_chain_reg[3][0]/CK (SDFFRQX2M)
+                                                          0.00       0.00 r
+  u_async_fifo/rd_2_wr/sync_chain_reg[3][0]/Q (SDFFRQX2M)
+                                                          0.35       0.35 r
+  u_async_fifo/rd_2_wr/gray_ptr_sync_reg[3]/D (SDFFRQX2M)
+                                                          0.00       0.35 r
+  data arrival time                                                  0.35
+
+  clock DFT_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.01       0.01
+  u_async_fifo/rd_2_wr/gray_ptr_sync_reg[3]/CK (SDFFRQX2M)
+                                                          0.00       0.01 r
+  library hold time                                      -0.16      -0.15
+  data required time                                                -0.15
+  --------------------------------------------------------------------------
+  data required time                                                -0.15
+  data arrival time                                                 -0.35
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.51
+
+
+  Startpoint: u_async_fifo/rd_2_wr/sync_chain_reg[0][1]
+              (rising edge-triggered flip-flop clocked by DFT_CLK)
+  Endpoint: u_async_fifo/rd_2_wr/sync_chain_reg[0][0]
+            (rising edge-triggered flip-flop clocked by DFT_CLK)
+  Path Group: DFT_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFT_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  u_async_fifo/rd_2_wr/sync_chain_reg[0][1]/CK (SDFFRQX2M)
+                                                          0.00       0.00 r
+  u_async_fifo/rd_2_wr/sync_chain_reg[0][1]/Q (SDFFRQX2M)
+                                                          0.35       0.35 r
+  u_async_fifo/rd_2_wr/sync_chain_reg[0][0]/D (SDFFRQX2M)
+                                                          0.00       0.35 r
+  data arrival time                                                  0.35
+
+  clock DFT_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.01       0.01
+  u_async_fifo/rd_2_wr/sync_chain_reg[0][0]/CK (SDFFRQX2M)
+                                                          0.00       0.01 r
+  library hold time                                      -0.16      -0.15
+  data required time                                                -0.15
+  --------------------------------------------------------------------------
+  data required time                                                -0.15
+  data arrival time                                                 -0.35
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.51
+
+
+  Startpoint: u_async_fifo/rd_2_wr/sync_chain_reg[1][1]
+              (rising edge-triggered flip-flop clocked by DFT_CLK)
+  Endpoint: u_async_fifo/rd_2_wr/sync_chain_reg[1][0]
+            (rising edge-triggered flip-flop clocked by DFT_CLK)
+  Path Group: DFT_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFT_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  u_async_fifo/rd_2_wr/sync_chain_reg[1][1]/CK (SDFFRQX2M)
+                                                          0.00       0.00 r
+  u_async_fifo/rd_2_wr/sync_chain_reg[1][1]/Q (SDFFRQX2M)
+                                                          0.35       0.35 r
+  u_async_fifo/rd_2_wr/sync_chain_reg[1][0]/D (SDFFRQX2M)
+                                                          0.00       0.35 r
+  data arrival time                                                  0.35
+
+  clock DFT_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.01       0.01
+  u_async_fifo/rd_2_wr/sync_chain_reg[1][0]/CK (SDFFRQX2M)
+                                                          0.00       0.01 r
+  library hold time                                      -0.16      -0.15
+  data required time                                                -0.15
+  --------------------------------------------------------------------------
+  data required time                                                -0.15
+  data arrival time                                                 -0.35
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.51
+
+
+  Startpoint: u_async_fifo/rd_2_wr/sync_chain_reg[2][1]
+              (rising edge-triggered flip-flop clocked by DFT_CLK)
+  Endpoint: u_async_fifo/rd_2_wr/sync_chain_reg[2][0]
+            (rising edge-triggered flip-flop clocked by DFT_CLK)
+  Path Group: DFT_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFT_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  u_async_fifo/rd_2_wr/sync_chain_reg[2][1]/CK (SDFFRQX2M)
+                                                          0.00       0.00 r
+  u_async_fifo/rd_2_wr/sync_chain_reg[2][1]/Q (SDFFRQX2M)
+                                                          0.35       0.35 r
+  u_async_fifo/rd_2_wr/sync_chain_reg[2][0]/D (SDFFRQX2M)
+                                                          0.00       0.35 r
+  data arrival time                                                  0.35
+
+  clock DFT_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.01       0.01
+  u_async_fifo/rd_2_wr/sync_chain_reg[2][0]/CK (SDFFRQX2M)
+                                                          0.00       0.01 r
+  library hold time                                      -0.16      -0.15
+  data required time                                                -0.15
+  --------------------------------------------------------------------------
+  data required time                                                -0.15
+  data arrival time                                                 -0.35
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.51
+
+
+  Startpoint: u_async_fifo/rd_2_wr/sync_chain_reg[3][1]
+              (rising edge-triggered flip-flop clocked by DFT_CLK)
+  Endpoint: u_async_fifo/rd_2_wr/sync_chain_reg[3][0]
+            (rising edge-triggered flip-flop clocked by DFT_CLK)
+  Path Group: DFT_CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFT_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  u_async_fifo/rd_2_wr/sync_chain_reg[3][1]/CK (SDFFRQX2M)
+                                                          0.00       0.00 r
+  u_async_fifo/rd_2_wr/sync_chain_reg[3][1]/Q (SDFFRQX2M)
+                                                          0.35       0.35 r
+  u_async_fifo/rd_2_wr/sync_chain_reg[3][0]/D (SDFFRQX2M)
+                                                          0.00       0.35 r
+  data arrival time                                                  0.35
+
+  clock DFT_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.01       0.01
+  u_async_fifo/rd_2_wr/sync_chain_reg[3][0]/CK (SDFFRQX2M)
+                                                          0.00       0.01 r
+  library hold time                                      -0.16      -0.15
+  data required time                                                -0.15
+  --------------------------------------------------------------------------
+  data required time                                                -0.15
+  data arrival time                                                 -0.35
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.51
+
+
+1
